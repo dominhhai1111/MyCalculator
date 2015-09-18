@@ -14,6 +14,14 @@
 		E118BEE11B8B3A26009EAB14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E118BEE01B8B3A26009EAB14 /* Images.xcassets */; };
 		E118BEE41B8B3A26009EAB14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E118BEE21B8B3A26009EAB14 /* LaunchScreen.xib */; };
 		E118BEF01B8B3A27009EAB14 /* MyCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E118BEEF1B8B3A27009EAB14 /* MyCalculatorTests.m */; };
+		E118BEFC1B8B3A93009EAB14 /* images-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BEFA1B8B3A93009EAB14 /* images-4.jpeg */; };
+		E118BEFD1B8B3A93009EAB14 /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BEFB1B8B3A93009EAB14 /* images-3.jpeg */; };
+		E118BF031B8B3B04009EAB14 /* images-13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BEFE1B8B3B04009EAB14 /* images-13.jpeg */; };
+		E118BF041B8B3B04009EAB14 /* images-12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BEFF1B8B3B04009EAB14 /* images-12.jpeg */; };
+		E118BF051B8B3B04009EAB14 /* images-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BF001B8B3B04009EAB14 /* images-11.jpeg */; };
+		E118BF061B8B3B04009EAB14 /* images-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BF011B8B3B04009EAB14 /* images-10.jpeg */; };
+		E118BF071B8B3B04009EAB14 /* images-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BF021B8B3B04009EAB14 /* images-9.jpeg */; };
+		E118BF091B8B40BC009EAB14 /* images-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E118BF081B8B40BC009EAB14 /* images-5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		E118BEE91B8B3A27009EAB14 /* MyCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E118BEEE1B8B3A27009EAB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E118BEEF1B8B3A27009EAB14 /* MyCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCalculatorTests.m; sourceTree = "<group>"; };
+		E118BEFA1B8B3A93009EAB14 /* images-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-4.jpeg"; sourceTree = "<group>"; };
+		E118BEFB1B8B3A93009EAB14 /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		E118BEFE1B8B3B04009EAB14 /* images-13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-13.jpeg"; sourceTree = "<group>"; };
+		E118BEFF1B8B3B04009EAB14 /* images-12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-12.jpeg"; sourceTree = "<group>"; };
+		E118BF001B8B3B04009EAB14 /* images-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-11.jpeg"; sourceTree = "<group>"; };
+		E118BF011B8B3B04009EAB14 /* images-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-10.jpeg"; sourceTree = "<group>"; };
+		E118BF021B8B3B04009EAB14 /* images-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-9.jpeg"; sourceTree = "<group>"; };
+		E118BF081B8B40BC009EAB14 /* images-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-5.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		E118BED21B8B3A26009EAB14 /* MyCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E118BEF91B8B3A6B009EAB14 /* Photo */,
 				E118BED71B8B3A26009EAB14 /* AppDelegate.h */,
 				E118BED81B8B3A26009EAB14 /* AppDelegate.m */,
 				E118BEDA1B8B3A26009EAB14 /* ViewController.h */,
@@ -117,6 +134,21 @@
 				E118BEEE1B8B3A27009EAB14 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E118BEF91B8B3A6B009EAB14 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E118BF081B8B40BC009EAB14 /* images-5.jpeg */,
+				E118BEFE1B8B3B04009EAB14 /* images-13.jpeg */,
+				E118BEFF1B8B3B04009EAB14 /* images-12.jpeg */,
+				E118BF001B8B3B04009EAB14 /* images-11.jpeg */,
+				E118BF011B8B3B04009EAB14 /* images-10.jpeg */,
+				E118BF021B8B3B04009EAB14 /* images-9.jpeg */,
+				E118BEFA1B8B3A93009EAB14 /* images-4.jpeg */,
+				E118BEFB1B8B3A93009EAB14 /* images-3.jpeg */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +231,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E118BEFC1B8B3A93009EAB14 /* images-4.jpeg in Resources */,
+				E118BF041B8B3B04009EAB14 /* images-12.jpeg in Resources */,
 				E118BEDF1B8B3A26009EAB14 /* Main.storyboard in Resources */,
 				E118BEE41B8B3A26009EAB14 /* LaunchScreen.xib in Resources */,
 				E118BEE11B8B3A26009EAB14 /* Images.xcassets in Resources */,
+				E118BEFD1B8B3A93009EAB14 /* images-3.jpeg in Resources */,
+				E118BF031B8B3B04009EAB14 /* images-13.jpeg in Resources */,
+				E118BF051B8B3B04009EAB14 /* images-11.jpeg in Resources */,
+				E118BF061B8B3B04009EAB14 /* images-10.jpeg in Resources */,
+				E118BF071B8B3B04009EAB14 /* images-9.jpeg in Resources */,
+				E118BF091B8B40BC009EAB14 /* images-5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
